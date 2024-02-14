@@ -1,0 +1,35 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.grid {
+	display: grid;
+	max-width: 300px;
+	width: 100%;
+	padding: 20px;
+	gap: 20px;
+	border: 1px solid #ccc;
+}
+
+.box {
+	background-color: transparent;
+	border: 1px solid #ccc;
+	height: 0;
+	padding-bottom: 100%;
+	cursor: pointer;
+}
+.box-filled {
+	background-color: greenyellow;
+	cursor: not-allowed;
+}
