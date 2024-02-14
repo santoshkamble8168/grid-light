@@ -19,6 +19,8 @@ function App() {
 
 		//check all are Filled?
 		if (newOrder.length === gridConfig.flat(1).filter(Boolean).length) {
+			//newOrder.length= 8
+			//gridConfig.flat(1).filter(Boolean).length = 8 as here we are using Boolean so only get 1s
 			handleDeActivate();
 		}
 	};
